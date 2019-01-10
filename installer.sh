@@ -1,6 +1,6 @@
 #!/bin/bash
 DIRECTORIES=(i3 polybar)
-CONFIG_DIR=~/.configtest
+CONFIG_DIR=~/.config
 for i in "${DIRECTORIES[@]}"
 do
 	echo "Making a directory for $i in $CONFIG_DIR/$i"
